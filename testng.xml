@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SwagLabs">
+    <test name="All Tests">
+        <packages>
+            <package name="login"/>
+            <package name="inventory"/>
+        </packages>
+    </test>
+</suite>
