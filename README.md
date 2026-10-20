@@ -10,4 +10,7 @@ Test automation project for [Swag Labs](https://www.saucedemo.com).
 - Page Object Model + Data Driven (JSON)
 
 ## Run Tests
+
+```bash
 mvn test
+```
