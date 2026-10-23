@@ -4,6 +4,7 @@
         <packages>
             <package name="login"/>
             <package name="inventory"/>
+            <package name="cart"/>
         </packages>
     </test>
 </suite>

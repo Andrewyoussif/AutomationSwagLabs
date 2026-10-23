@@ -2,15 +2,15 @@ package login;
 
 import base.BaseTests;
 import org.testng.annotations.Test;
-import utils.DataDriven;
+import utils.TestDataDataDriven;
 
 import static org.testng.Assert.*;
 
 public class InvalidUsernameAndPassword extends BaseTests {
     @Test
     public void invalidUsernameAndPassword(){
-        String username = DataDriven.jsonReader("invalidUser","username");
-        String password= DataDriven.jsonReader("invalidUser","password");
+        String username = TestDataDataDriven.jsonReader("invalidUser","username");
+        String password= TestDataDataDriven.jsonReader("invalidUser","password");
         loginPage.setUserName(username);
         loginPage.setPassword(password);
         loginPage.clickLogin();

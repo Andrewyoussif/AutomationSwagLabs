@@ -5,10 +5,10 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 
 import java.io.InputStream;
 
-public class DataDriven {
+public class TestDataDataDriven {
 
     public static String jsonReader(String user, String key) {
-        try (InputStream is = DataDriven.class
+        try (InputStream is = TestDataDataDriven.class
                 .getClassLoader()
                 .getResourceAsStream("testdata.json")) {
 
